@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+    
+}
+
+.about{
+    background-color: white;
+    margin: 80px 0;
+    margin-left: 30px;
+    width:65%;
+    padding: 30px;
+}
+
+#aboutImg {
+    margin-right: 10px;
+    width: 300px;
+    float:left;
+}
+
+@media only screen and (max-width: 399px){
+    #aboutImg{
+        width: 150px;
+    }
+    .about{
+        width:80%;
+    }
+}
