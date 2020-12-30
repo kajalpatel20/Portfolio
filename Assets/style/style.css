@@ -1,23 +1,15 @@
 body {
-    background-color: grey;
-    
+  background-color: lightgray;
+  
 }
 
 .about {
     background-color: white;
     margin: 80px 0;
     margin-left: 30px;
-    width:65%;
-    padding: 30px;
-}
-
-.mb-3{
-
-    background-color: white;
-    margin: 80px 0;
-    margin-left: 50px;
-    width:50%;
-    padding: 30px;
+    width:60%;
+    padding: 20px;
+   
 }
 .row col-md-4{
 
@@ -28,31 +20,80 @@ body {
     padding: 30px;
 }
 #aboutImg {
-    margin-right: 10px;
-    width: 300px;
+    margin-right: 9px;
+    width: 250px;
     float:left;
 }
 
-@media only screen and (max-width: 399px){
-    #aboutImg{
-        width: 150px;
-    }
-    .about{
-        width:80%;
-    }
+/* PORTFOLIO STYLE */
+
+.container {
+    
+    width:40%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+
+}
+
+.imgPort{
+    margin-bottom: 25px;
+
+}
+.footer{
+    border-top:solid lightseagreen 5px;
+    background-color: gray;
+    height: 50px;
 }
 
 .navbar-brand {
     background-color: lightblue;
     font-weight: bold;
-    font-size: 30px;
-
+    font-size: 35px;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     color: blue;
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+  }
+.col {
+    flex-basis: 200px;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
 
+.flex {
+  margin: 0 auto;
+  counter-reset: col;
+  background: #EEE;
+  animation: resize 6s infinite;
+}
 
+@media (prefers-reduced-motion) {
+  .flex {
+    animation: none;
+  }
+
+  @media only screen and (max-width: 399px){
+
+    .about{
+        width:80%;
+        padding: 9px;
+    
+}
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+    ul {
+      flex-direction: row;
+  }
+}
+  }
 }
