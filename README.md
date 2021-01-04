@@ -30,7 +30,6 @@ Below are the summery:
 
 Below is the link to the finished application along with a screenshot of each page
 
-Screen Shot 2021-01-04 at 5.40.58 PM.png
 
 * The URLs of the deployed applications
 
