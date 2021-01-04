@@ -9,17 +9,16 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Link to style.css page -->
   <link rel="stylesheet" href="./Assets/style/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
 
   <title>Contact!</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-ligxht">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Kajal Patel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -47,34 +46,63 @@
 
   <main>
 
-  <div>
-    <form>
+    <div>
 
-      <div class="wrapper">
-        <div class="container" >
-          <h1>Contact</h1>
-        <hr />
 
-      <div class="mb-5">
-        <label for="exampleInputPassword1" class="form-label">Name</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="mb-5">
-        <label for="exampleInputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text"> </div>
-      </div>
-      <div class="mb-5">
-        <label for="exampleInputPassword1" class="form-label">Message</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <form class="col-sm-12 contact-form">
+        <div class="container">
+          <div class="mb-6">
+            <h1>Contact</h1>
+            <hr />
+        <!--form for name-->
+        <section class="mb-3">
+            <label for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="Name" placeholder="Name">
+        </section>
+        
+        <!--form for email-->
+        <section class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="Email" placeholder="Email">
+        </section>
+        
+        <!--form for message-->
+        <section class="mb-3">
+            <label for="Message" class="form-label">Message</label>
+            <textarea class="form-control" id="Message" placeholder="Message"></textarea>
+        </section>
+        
+        <!--button for sumbit-->
+        <section class="submit">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </section>
+        
     </form>
-  </div>
+    </div>
   </main>
 
-  <footer class="footer"></footer>
+  <!-- Add a class footer-->
+  <footer class="footer mt-auto py-2">
+    <section class="card text-center text-white bg-dark">
+      <section class="card-body">
+        <h5 class="card-title">Connect on Social Media!</h5>
+        <a href="https://github.com/kajalpatel20"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        <a href="www.linkedin.com/in/kajal-patel-a7a10628"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://www.facebook.com/kajalpatel20/"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+
+
+      </section>
+    </section>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"></script>
+
+
+<!--Linking to FontAwesome-->
+<script src="https://kit.fontawesome.com/7af0740e69.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

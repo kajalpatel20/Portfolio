@@ -4,85 +4,149 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
 
-    <title>About Me</title>
+    <!--Link to style.css page-->
+    <link rel="stylesheet" href="./Assets/style/style.css" />
+
+    <title>Portfolio</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Kajal Patel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
+    <!-- Navbar with resposive links to about me, portfolio, and contact pages start-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kajal Patel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="wrapper">
+        </nav>
+    </header>
+
+    <main>
+        <!-- Portfolio page with images to display -->
+
         <div class="container">
-            <h1>Portfolio</h1>
-            <hr>
-            <div>
-                <flex-overflow>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Portfolio</h1>
+                    <hr>
+                </div>
 
-                    <ul class="row">
-                        <div class="col-5">
-                            <img class='imgPort' src="./Assets/Images/IMG_2344.jpeg"
-                                style="height: 200px;width: 200px;" />
-                        </div>
-                        <div class="col-5">
-                            <img class='imgPort' src="./Assets/Images/IMG_2344.jpeg"
-                                style="height: 200px;width: 200px;" />
+                <div class="row gap-3">
+                    <div class="col-md-6 pt-5">
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="/Users/kajalpatel/Desktop/Bootcamp/homework_2/Portfolio/Assets/Images/horiseon.png"
+                                    class="card-img-top" alt="Horiseon webpage">
 
+                                <div class="card-body">
+                                    <!-- <style>
+                                        height-150px width-150px
+                                    </style> -->
+                                    <p class="card-text ubuntu text-center">This was my first code refactor project. I
+                                        had to refactoring
+                                        Horiseon's website's code so that it mets accessibility standards.</p>
+                                </div>
+                            </div>
                         </div>
-                    </ul>
-                    <ul class="row">
-                        <div class="col-5">
-                            <img class='imgPort' src="./Assets/Images/IMG_2344.jpeg"
-                                style="height: 200px;width: 200px;" />
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="http://placehold.jp/150x150.png" class="card-img-top" alt="Placeholder image">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Coming soon</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-5">
-                            <img class='imgPort' src="./Assets/Images/IMG_2344.jpeg"
-                                style="height: 200px;width: 200px;" />
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="http://placehold.jp/150x150.png" class="card-img-top" alt="Placeholder image">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Coming soon</h5>
+                                </div>
+                            </div>
                         </div>
-
-                    </ul>
-                    <ul class="row">
-                        <div class="col-5">
-                            <img class='imgPort' src="./Assets/Images/IMG_2344.jpeg"
-                                style="height: 200px;width: 200px;" />
-
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="http://placehold.jp/150x150.png" class="card-img-top" alt="Placeholder image">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Coming soon</h5>
+                                </div>
+                            </div>
                         </div>
-                    </ul>
-                </flex-overflow>
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="http://placehold.jp/150x150.png" class="card-img-top" alt="Placeholder image">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Coming soon</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pb-2">
+                            <div class="card">
+                                <img src="http://placehold.jp/150x150.png" class="card-img-top" alt="Placeholder image">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Coming soon</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <footer class="footer"></footer>
+    </main>
+
+    <!-- Add a class footer-->
+    <footer class="footer mt-auto py-2">
+        <section class="card text-center text-white bg-dark">
+            <section class="card-body">
+                <h5 class="card-title">Connect on Social Media!</h5>
+                <a href="https://github.com/kajalpatel20"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                <a href="www.linkedin.com/in/kajal-patel-a7a10628"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://www.facebook.com/kajalpatel20/"><i class="fa fa-facebook fa-3x"
+                        aria-hidden="true"></i></a>
+
+            </section>
+        </section>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+
+  <!--Linking to FontAwesome-->
+  <script src="https://kit.fontawesome.com/7af0740e69.js" crossorigin="anonymous"></script>
+
 </body>
+
 
 </html>

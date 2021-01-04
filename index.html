@@ -4,80 +4,106 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Link to style.css page -->
     <link rel="stylesheet" href="./Assets/style/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
 
     <title>About Me</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 
-    <!-- Navigation start-->
+    <!-- Navbar with resposive links to about me, portfolio, and contact pages start-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kajal Patel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Kajal Patel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Nav links, forms, and other content for toggle -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+                <!-- Nav links, forms, and other content for toggle -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./contact.html">contact</a>
-                    </li>
-                </ul>
-                </li>
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main>
+        <!-- About me info with image -->
         <div class=" about">
 
             <h1>About Me</h1>
             <hr />
-            <img id="aboutImg" src="Assets/Images/IMG_3520.jpeg" /> class="rounded" alt="IMG_3520"
 
-            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                1960s
-                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <br />
-            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                1960s
-                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="clearfix">
+                <img id="aboutImg" src="Assets/Images/IMG_3520.jpeg" alt="Kajal Patel's image">
 
+
+                <p>Hello!
+                    My name is Kajal Patel. I born and raise in India. I moved to USA when I was 23 years old. I have
+                    graduated from M.S.University of Baroda, India. I studied Bachelor of Science in Food and Nutrition
+                    and I have my Master Degree in Medical Technologist. I'm a currently working as Medical Technologist
+                    in the Transfusion Medicine Department at Temple University Hospital, Philadelphia, PA. I have been
+                    in this field for more than 15 years. I have enjoyed working in this career as well I learn new
+                    skills and gain lot of knowledge while working. I was lucky enough to worked on couple of intiative
+                    projects at my job where I learn and gain more knowledge as well as I share my knowledge with
+                    others.</p>
+                <br />
+                <p>
+                    I have always want to pursuing this as a career, I enrolled in the Penn Coding Bootcamp Full Stack
+                    program. I have always had an interest in software and web development. I did learned Java and C+ as
+                    languages. I am looking forward to progressing through this
+                    class, making connections along the way and seeing where it takes me!
+                </p>
+            </div>
         </div>
     </main>
-    <footer class="footer"></footer>
+
+        <!--footer with links to social media-->
+          <footer class="footer mt-auto py-2">
+        <section class="card text-center text-white bg-dark">
+            <section class="card-body">
+                <h5 class="card-title">Connect on Social Media!</h5>
+                <a href="https://github.com/kajalpatel20"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                <a href="www.linkedin.com/in/kajal-patel-a7a10628"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://www.facebook.com/kajalpatel20/"><i class="fa fa-facebook fa-3x"
+                        aria-hidden="true"></i></a>
+                
+            </section>
+
+        </section>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+
+  <!--Linking to FontAwesome-->
+  <script src="https://kit.fontawesome.com/7af0740e69.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
