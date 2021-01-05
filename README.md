@@ -38,4 +38,4 @@ https://kajalpatel20.github.io/Portfolio/contact.html
 
 * The URLs of the GitHub repositories
 
-
+https://github.com/kajalpatel20/Portfolio
