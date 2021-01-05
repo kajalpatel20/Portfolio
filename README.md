@@ -34,7 +34,9 @@ Below is the link to the finished application along with a screenshot of each pa
 
 
 Website URL: https://kajalpatel20.github.io/Portfolio/index.html
+
              https://kajalpatel20.github.io/Portfolio/portfolio.html
+             
              https://kajalpatel20.github.io/Portfolio/contact.html
 
 Repository URL: 
@@ -46,7 +48,9 @@ Screenshot
 ![Website screenshot]
 
 assets/images/screenshot.png - https://kajalpatel20.github.io/Portfolio/index.html
+
 https://kajalpatel20.github.io/Portfolio/portfolio.html
+
 https://kajalpatel20.github.io/Portfolio/contact.html
 
 
