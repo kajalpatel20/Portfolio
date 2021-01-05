@@ -28,13 +28,27 @@ Below are the summery:
    * I have my GitHub repository with README describing the project
 
 
+To impress recruiter for example, I make sure that all links are functioning correctly. Also, use the bootstrap and CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+
 Below is the link to the finished application along with a screenshot of each page
 
 
-* The URLs of the deployed applications
-https://kajalpatel20.github.io/Portfolio/index.html
+Website URL: https://kajalpatel20.github.io/Portfolio/index.html
+             https://kajalpatel20.github.io/Portfolio/portfolio.html
+             https://kajalpatel20.github.io/Portfolio/contact.html
+
+Repository URL: 
+              https://github.com/kajalpatel20/Portfolio
+
+Provided instructions and examples for use. Include screenshots as needed.
+
+Screenshot
+![Website screenshot]
+
+assets/images/screenshot.png - https://kajalpatel20.github.io/Portfolio/index.html
 https://kajalpatel20.github.io/Portfolio/portfolio.html
 https://kajalpatel20.github.io/Portfolio/contact.html
+
 
 * The URLs of the GitHub repositories
 
