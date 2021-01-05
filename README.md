@@ -34,6 +34,7 @@ Below is the link to the finished application along with a screenshot of each pa
 * The URLs of the deployed applications
 https://kajalpatel20.github.io/Portfolio/index.html
 
+https://kajalpatel20.github.io/Portfolio/contact.html
 
 * The URLs of the GitHub repositories
 
