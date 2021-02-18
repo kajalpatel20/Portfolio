@@ -18,90 +18,95 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-ligxht">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Kajal Patel</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Navbar with resposive links to about me, portfolio, and contact pages start-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kajal Patel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+        <!-- Nav links, forms, and other content for toggle -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+            </li>
+          </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-        </li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
+  </header>
   <main>
 
     <div>
-
-
       <form class="col-sm-12 contact-form">
         <div class="container">
           <div class="mb-6">
             <h1>Contact</h1>
+            <p>Connect on <b>GitHub</b>,<b>LinkedIn</b>,<b>Email</b> or <b>Pdf-Resume</b> links at the bottom of the
+              page, or fill out the contact form below!!!
+            </p>
             <hr />
-        <!--form for name-->
-        <section class="mb-3">
-            <label for="Name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="Name" placeholder="Name">
-        </section>
-        
-        <!--form for email-->
-        <section class="mb-3">
-            <label for="Email" class="form-label">Email</label>
-            <input type="text" class="form-control" id="Email" placeholder="Email">
-        </section>
-        
-        <!--form for message-->
-        <section class="mb-3">
-            <label for="Message" class="form-label">Message</label>
-            <textarea class="form-control" id="Message" placeholder="Message"></textarea>
-        </section>
-        
-        <!--button for sumbit-->
-        <section class="submit">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </section>
-        
-    </form>
+            <!--form for name-->
+            <section class="mb-3">
+              <label for="Name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="Name" placeholder="Name">
+            </section>
+
+            <!--form for email-->
+            <section class="mb-3">
+              <label for="Email" class="form-label">Email</label>
+              <input type="text" class="form-control" id="Email" placeholder="Email">
+            </section>
+
+            <!--form for message-->
+            <section class="mb-3">
+              <label for="Message" class="form-label">Message</label>
+              <textarea class="form-control" id="Message" placeholder="Message"></textarea>
+            </section>
+
+            <!--button for sumbit-->
+            <section class="submit">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </section>
+
+      </form>
     </div>
   </main>
 
   <!-- Add a class footer-->
-  <footer class="footer mt-auto py-2">
+  <footer class="footer">
     <section class="card text-center text-white bg-dark">
       <section class="card-body">
         <h5 class="card-title">Connect on Social Media!</h5>
         <a href="https://github.com/kajalpatel20"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-        <a href="www.linkedin.com/in/kajal-patel-a7a10628"><i class="fab fa-linkedin fa-3x"></i></a>
-        <a href="https://www.facebook.com/kajalpatel20/"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
-
-
+        <a href="https://www.linkedin.com/in/kajal-patel-a7a10628"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="mailto:kajalpatel20@gmail.com"><i class="fa fa-envelope fa-3x mr-3"></i></a>
+        <a href="./Assets/Images/sample.pdf.resume.png"><i class="fa fa-file-pdf fa-3x"></i></a>
       </section>
+    </section>
     </section>
 
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-  crossorigin="anonymous"></script>
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
 
-<!--Linking to FontAwesome-->
-<script src="https://kit.fontawesome.com/7af0740e69.js" crossorigin="anonymous"></script>
+  <!--Linking to FontAwesome-->
+  <script src="https://kit.fontawesome.com/7af0740e69.js" crossorigin="anonymous"></script>
 
 </body>
 

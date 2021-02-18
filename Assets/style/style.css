@@ -5,7 +5,7 @@ body{
 
 
 .about {
-    background-color: rgba(245, 247, 215, 0.991);
+    background-color:rgba(193, 196, 163, 0.991);
     margin: 80px 0;
     margin-left: 50px;
     width:80%;
@@ -28,7 +28,7 @@ body{
 .container {
     
     width:80%;
-    background-color:rgba(245, 247, 215, 0.991);
+    background-color:rgba(193, 196, 163, 0.991);
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -39,15 +39,15 @@ body{
 
 .navbar{
   background-color:rgb(230, 198, 119);
-
+  height: 20%;
 }
 .navbar-brand {
-    background-color: lightblue;
+    
     font-weight: bold;
     font-size: 55px;
 }
 .navbar-nav {
-    background-color: lightblue;
+    
     font-weight: bolder;
     font-size: larger;
 }
