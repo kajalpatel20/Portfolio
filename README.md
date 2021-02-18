@@ -18,10 +18,17 @@ Make sure that your portfolio includes the following:
 
 * A link to a PDF of your resume
 
+<<<<<<< HEAD
 * A list of projects, each including the following:
+=======
+To impress recruiter for example, I make sure that all links are functioning correctly. Also, use the bootstrap and CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+
+Below is the link to the finished application along with a screenshot of each page
+>>>>>>> 83d936702ec512720439f9cfc76bad9d4cc67a8a
 
   * Project title
 
+<<<<<<< HEAD
   * Link to the deployed version
 
   * Link to the GitHub repository
@@ -99,3 +106,29 @@ Please refer to the class repository to find these algorithms:
 ![Career Services Online Events graphic](./assets/online-events.png)
 
 If you want to learn more about the technical interviewing process and practice algorithms in a mock interview setting, attend one of our [upcoming workshops](https://careerservicesonlineevents.splashthat.com/)!
+=======
+Website URL: https://kajalpatel20.github.io/Portfolio/index.html
+
+             https://kajalpatel20.github.io/Portfolio/portfolio.html
+             
+             https://kajalpatel20.github.io/Portfolio/contact.html
+
+Repository URL: 
+              https://github.com/kajalpatel20/Portfolio
+
+Provided instructions and examples for use. Include screenshots as needed.
+
+Screenshot
+![Website screenshot]
+
+assets/images/screenshot.png - https://kajalpatel20.github.io/Portfolio/index.html
+
+https://kajalpatel20.github.io/Portfolio/portfolio.html
+
+https://kajalpatel20.github.io/Portfolio/contact.html
+
+
+* The URLs of the GitHub repositories
+
+https://github.com/kajalpatel20/Portfolio
+>>>>>>> 83d936702ec512720439f9cfc76bad9d4cc67a8a
