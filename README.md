@@ -27,8 +27,6 @@ My site looks polished. Here are a few guidelines on what that means:
 
 Updated LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github profile and portfolio.
 
-Screen Shots:
-![homework_2/Portfolio](./Asset/Images/Screenshot#1.png)
 
 * The URL of the functional, deployed application for all the Projects:
 
