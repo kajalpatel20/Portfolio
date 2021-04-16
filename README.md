@@ -30,9 +30,11 @@ Updated LinkedIn Profile with a strong bio statement, a professional photo, and 
 
 * The URL of the functional, deployed application for all the Projects:
 
-https://kajalpatel20.github.io/homework_1/
+https://github.com/kajalpatel20/mvc-tech-blog/
 
-https://kajalpatel20.github.io/Weather-Dashboard/
+https://github.com/kajalpatel20/E-Commerce-Back-End/
+
+https://github.com/kajalpatel20/Library-Management-System/
 
 https://kajalpatel20.github.io/Work-Day-Scheduler/
 
@@ -43,7 +45,7 @@ https://kajalpatel20.github.io/kajal-portfolio/
 
 Deployed page URL: https://kajalpatel20.github.io/Portfolio/index.html
 
-                   https://kajalpatel20.github.io/Portfolio/portfolio.html
+         https://kajalpatel20.github.io/Portfolio/portfolio.html
              
                    https://kajalpatel20.github.io/Portfolio/contact.html
 
@@ -57,7 +59,6 @@ Single page Portfolio GitHub Repositories
 
 https://github.com/kajalpatel20/kajal-portfolio
 
-
 License:
 
 MIT License
@@ -65,3 +66,11 @@ MIT License
 Copyright (c) [2020] [Kajal_Patel]
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+## Questions:
+
+The repo for this project can be found here:
+
+https://github.com/kajalpatel20/Portfolio
+
+For any questions or to report issues, email me at: kajalpatel20@gmail.com
