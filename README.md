@@ -28,7 +28,7 @@ My site looks polished. Here are a few guidelines on what that means:
 Updated LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github profile and portfolio.
 
 
-* The URL of the functional, deployed application for all the Projects:
+* The URL of the GitHub repository of the functional, deployed application for all the Projects:
 
 https://github.com/kajalpatel20/mvc-tech-blog/
 
@@ -43,25 +43,26 @@ https://bhavipatel21.github.io/starwarsIndex/
 https://kajalpatel20.github.io/kajal-portfolio/
 
 
-Deployed page URL: https://kajalpatel20.github.io/Portfolio/index.html
+### Deployment: 
 
-         https://kajalpatel20.github.io/Portfolio/portfolio.html
-             
-                   https://kajalpatel20.github.io/Portfolio/contact.html
 
-Single page Portfolio URL: https://kajalpatel20.github.io/kajal-portfolio
+* The URL of the functional, deployed application.
 
-* The URLs of the GitHub repositories
+https://kajalpatel20.github.io/Portfolio/index.html
 
-https://github.com/kajalpatel20/Portfolio
+https://kajalpatel20.github.io/Portfolio/portfolio.html
 
-Single page Portfolio GitHub Repositories
+https://kajalpatel20.github.io/Portfolio/contact.html
 
-https://github.com/kajalpatel20/kajal-portfolio
+https://kaj-mvc-tech-blog.herokuapp.com/
 
-License:
+* Single page Portfolio URL: https://kajalpatel20.github.io/kajal-portfolio
 
-MIT License
+
+## License:
+ APACHE 2.0
+
+  [![Github License](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)]
 
 Copyright (c) [2020] [Kajal_Patel]
 
